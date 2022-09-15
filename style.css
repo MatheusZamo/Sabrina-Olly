@@ -20,7 +20,7 @@ html{
 #btn-menu,#btn-fechar{
     color:#f1f1f1;
     margin-top:33px;
-    margin-right: 90px;
+    padding-right: 90px;
     cursor: pointer;
 }
 #btn-fechar{
