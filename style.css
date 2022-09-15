@@ -63,8 +63,8 @@ a{
     color:#f1f1f1;
 }
 #banner{
-    width:350px;
-    height:300px;
+    width:300px;
+    height:270px;
     object-fit: cover;
     border-radius:8px;
     box-shadow:2px 2px 4px  #f1f1f1;
