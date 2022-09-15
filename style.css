@@ -67,7 +67,7 @@ a{
     height:300px;
     object-fit: cover;
     border-radius:8px;
-
+    box-shadow:2px 2px 4px  #f1f1f1;
 }
 #box-apresentacao{
     display: flex;
@@ -78,7 +78,6 @@ a{
 #apresentacao{
     width:420px;
     height:300px;
-    box-shadow:2px 2px 4px  #f1f1f1;
     margin-top:20px;
     border-radius:8px;
 }
