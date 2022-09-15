@@ -1,0 +1,23 @@
+#box-localizao{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#titulo-localizacao{
+    font-size:30px;
+    color:#f1f1f1;
+    margin-top:35px;
+}
+#maps{
+    width:350px;
+    height:220px;
+    border-radius:10px;
+    margin-top:30px;
+}
+#footer{
+    font-size:17px;
+    color:#f1f1f19a;
+    margin-top:20px;
+    margin-bottom:20px;
+    text-align:center;
+}
