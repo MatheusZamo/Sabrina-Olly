@@ -1,0 +1,138 @@
+html{
+    font-family: 'Combo', cursive;
+    background: #171717;
+    box-sizing:border-box;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    background: #212121;
+    height:100px;
+    width:100%;
+    position:fixed;
+    z-index: 1000;
+    top:0;
+}
+#logo-nav{
+    width:260px;
+    height:100px;
+}
+#btn-menu,#btn-fechar{
+    color:#f1f1f1;
+    margin-top:33px;
+    padding-right: 90px;
+    cursor: pointer;
+}
+#btn-fechar{
+    display:none;
+}
+#btn-menu.active{
+    display: none;
+}
+#btn-fechar.active{
+    display:inline;
+}
+#lista-mobile{
+    display:none;
+    opacity: 0;
+    transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+#lista-mobile.active{
+    display:block;
+    text-align:center;   
+    position: fixed;
+    width:100%;
+    z-index: 1000;
+    opacity:1;
+}
+#opcoes-lista{
+    background:#212121;
+    height:130px;
+}
+.lista-opcoes{
+    color:#f1f1f1;
+    font-size:20px;
+    margin-bottom:7px;
+    cursor:pointer;
+}
+.o{
+    margin-top:15px;
+}
+a{
+    text-decoration:none;
+    color:#f1f1f1;
+}
+#banner{
+    width:320px;
+    height:270px;
+    object-fit: cover;
+    border-radius:8px;
+    box-shadow:2px 2px 4px  #f1f1f1;
+}
+#box-apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+}
+#apresentacao{
+    width:320px;
+    height:300px;
+    margin-top:20px;
+    border-radius:8px;
+}
+#titulo{
+    font-size: 40px;
+    font-weight:500;
+    color:#f1f1f1;
+    text-align:center;
+    margin-top:30px;
+}
+#frase{
+    font-size: 30px;
+    color:#f1f1f19a;
+    text-align:center;
+    margin-top:60px;
+}
+
+
+@media (min-width:1024px){
+    #titulo{
+        font-size:47px;
+    }
+    #frase{
+        font-size:35px;
+    }
+    #btn-menu,#btn-fechar{
+        display:none;
+    }
+    #nav{
+        position:relative;
+        z-index: 0;
+    }
+    #lista-mobile{
+        display: flex;
+        opacity: 1;
+        position:absolute;
+        top: 40px;
+        right: 100px;
+    }
+    #opcoes-lista{
+        display:flex;
+        height:0;
+    }
+    .lista-opcoes{
+        margin-left:50px;
+        font-size:25px;
+    }
+    .o{
+        margin-top:0px;
+    }
+    #box-apresentacao{
+        margin-top:20px;
+    }
+    #apresentacao,#banner{
+        width:600px;
+        height:380px;
+    }
+}
