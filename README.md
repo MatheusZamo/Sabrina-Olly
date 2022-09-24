@@ -7,5 +7,12 @@
 -HTML<br>
 -CSS<br>
 -JavaScript
-<h2>Link do site:</h2>
-https://matheuszamo.github.io/Sabrina-Olly/
+<h2>Autor</h2>
+<h3>Matheus Henrique Oliveira Santos</h3>
+<ul>
+  <li>Email: 19matheushenrique03@gmail.com</li>
+  <li>Linkein: https://www.linkedin.com/in/matheuszamo/</li>
+  <li>Instagram: https://www.instagram.com/matheus.zamo/</li>
+</ul>
+<h2>Link do site</h2>
+<li>https://matheuszamo.github.io/Sabrina-Olly/</li>
